@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="conteiner">
+        <div class="allcard">
+            <div class="card">
+                <img onclick="paper()" src="paper.jpg" alt="">
+            </div>
+            <div class="card">
+                <img onclick="stone()" src="stone.jpg" alt="">
+            </div>
+            <div class="card">
+                <img onclick="scissors()" src="scissors.jpg" alt="">
+            </div>
+        </div>    
+        <div class="text">
+            <h1 id="yourchose">you choose <span></span></h1>   
+            <h2 id="compurtinput">computer choose <span></span></h2>  
+            <h3 id="winner" class="winner loss">you win</h3> 
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
